@@ -49,10 +49,24 @@ elif alder > 65:
     print("billetten koster: 20 kr")
 
 #oppgave 6
-poengsum = poeng * spørsmål
 poeng = 1
-spørsmål = input("emi_ie")
+poengsum = 1 * poeng
+riktig = riktig
 
-if spørsmål == emilie:
-    print("riktig", + poeng)
-else
+spørsmål1 = input("emi_ie")
+if spørsmål1 == emilie:
+    print(riktig)
+else:
+    print("feil")
+
+spørsmål2 = input("hjo_te")
+if spørsmål2 == hjorte:
+    print(riktig)
+else:
+    print("feil")
+
+spørsmål3 = input("hun_")
+if spørsmål3 == hund:
+    print(riktig)
+else:
+    print("feil")
