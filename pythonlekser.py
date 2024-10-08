@@ -76,3 +76,5 @@ else:
     print("feil")
 
 print("poengsummen er: ", poengsum)
+
+#oppgave 7
