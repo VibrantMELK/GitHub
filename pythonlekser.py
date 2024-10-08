@@ -50,25 +50,29 @@ elif alder > 65:
 
 #oppgave 6
 poeng = +1
-poengsum = 0 + poeng
-riktig = "riktig!"
+riktig = +1 
+poengsum = 0 
+
 
 spørsmål1 = input("Hva heter du? ")
 if spørsmål1 == "emilie":
-    print(riktig)
+    print("riktig!")
+    poengsum += 1
 else:
     print("feil")
 
 spørsmål2 = input("hvor gammel er du?: ")
 if spørsmål2 == "16":
-    print(riktig)
+    print("riktig!")
+    poengsum += 1
 else:
     print("feil")
 
 spørsmål3 = input("favoritt farge?: ")
 if spørsmål3 == "rød":
-    print(riktig)
+    print("riktig!")
+    poengsum += 1
 else:
     print("feil")
 
-print("poengsummen er: ", poengsum+poeng)
+print("poengsummen er: ", poengsum)
