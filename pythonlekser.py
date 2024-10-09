@@ -1,3 +1,4 @@
+"""
 #oppgave 1
 alder = 4
 print("alder: ", + alder)
@@ -88,10 +89,31 @@ min_liste = (3, 132, 14)
 
 print(min_liste[0])
 
-lister = ()
+lister = []
 
 lister.append("hei")
 lister.append("verden")
 print(lister)
+"""
 
 #oppgave 9
+liste = ["I", "dag", "er", "jeg", "så", "lykkelig", "så", "lykkelig", "så", "lykkelig", "det", "hele",
+"endte", "dejligt", "jeg", "synger", "og", "er", "glad", "Ja", "alting", "endte", "lykkeligt", "så",
+"lykkeligt", "så", "lykkeligt", "i", "dag", "er", "jeg", "så", "lykkelig", "som", "dagen", "den",
+"er", "lang"]
+
+print(len(liste))
+så = liste.count("så")
+print(så)
+
+lykkelig = liste.count("lykkelig")
+print(lykkelig)
+
+dag = liste.count("dag")
+print(dag)
+
+ordbok = {
+    "så": så, "lykkelig": lykkelig, "dag": dag
+
+}
+print(ordbok)
