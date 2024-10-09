@@ -1,4 +1,4 @@
-"""
+
 #oppgave 1
 alder = 4
 print("alder: ", + alder)
@@ -94,7 +94,7 @@ lister = []
 lister.append("hei")
 lister.append("verden")
 print(lister)
-"""
+
 
 #oppgave 9
 liste = ["I", "dag", "er", "jeg", "så", "lykkelig", "så", "lykkelig", "så", "lykkelig", "det", "hele",
