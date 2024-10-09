@@ -82,3 +82,9 @@ regnbue = ("rødt", "oransje", "gul", "grønn", "blå", "indigo", "fiolet")
 
 print("den første fargen i regnbuen er: ", regnbue[0])
 print("den fjerde fargen i regnbuen er: ", regnbue[3])
+
+#oppgave 8
+min_liste = (3, 132, 14)
+
+print(liste[0])
+
