@@ -93,3 +93,5 @@ lister = ()
 lister.append("hei")
 lister.append("verden")
 print(lister)
+
+#oppgave 9
