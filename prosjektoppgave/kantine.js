@@ -4,6 +4,6 @@ document.addEventListener("DOMcontentLoaded", function() {
   const dagensMeny = document.querySelector(`.meny-dag:nth-child(${today})`);
 
   if (dagensMeny) {
-    dagensMeny.style.backgroundColor = "#ffffff";
+    dagensMeny.style.backgroundColor = "#d4edda";
   }
 });

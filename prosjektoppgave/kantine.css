@@ -14,6 +14,14 @@ body {
     padding: 0;
 }
 
+/* navigering bar*/
+.navbar {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    font-size: 19px;
+}
+
 /*header*/
 header {
     background-color: rgb(231, 116, 231);
@@ -72,7 +80,7 @@ body {
 /*meny tekst*/
 .meny {
     text-align: center;
-    padding: 120px 0;
+    padding: 40px 0;
     background: #a07b33; 
 }
 
@@ -100,6 +108,10 @@ body {
     color: #fff;
 }
 
+.meny strong {
+    color: #fff;
+}
+
 
 /*varer*/
 .varer {
@@ -120,13 +132,18 @@ body {
     color: #fff;
 }
 
-
-/* navigering bar*/
-.navbar {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
+.varer ul li {
+    list-style: none;
+    margin-left: 30px;
+    color: #fff;
 }
+
+.varer strong {
+    color: #fff;
+}
+
+
+
 
 /*rom*/
 .rom {
@@ -185,26 +202,4 @@ strong {
     margin-bottom: 30px;
 }
 
-/*vareside*/
-.eksempler {
-    padding: 120px 0;
-    background: #e567b3; 
-    color: #fff;
-}
 
-.eksempler h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 2.5em;
-}
-.eksempler p {
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 1.5em;
-}
-
-
-.eksempler h1 {
-    margin-bottom: 10px;
-    font-size: 2em;
-}
