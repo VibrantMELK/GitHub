@@ -12,6 +12,14 @@ header {
     text-align: center;
 }
 
+header h1 {
+    float: left;
+}
+
+header nav {
+    float: right;
+}
+
 .navbar {
     width: 80%;
     margin: auto;
