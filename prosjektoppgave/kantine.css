@@ -5,6 +5,7 @@ body {
     padding: 0;
 }
 
+/*header*/
 header {
     background-color: rgb(231, 116, 231);
     color: white;
@@ -20,6 +21,40 @@ header nav {
     float: right;
 }
 
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* hero tekst*/
+.hero {
+    text-align: center;
+    padding: 120px 0;
+    background: #FFC247; 
+}
+
+.hero h2 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #fff;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+/* navigering bar*/
 .navbar {
     width: 80%;
     margin: auto;
@@ -30,6 +65,7 @@ main {
     margin: 20px;
 }
 
+/*kontakt info*/
 footer {
     background-color: rgb(216, 74, 74);
     color: white;
@@ -40,6 +76,7 @@ footer {
     width: 100%;
 }
 
+/*menyside*/
 .meny-dag {
     margin-bottom: 20px;
 }
