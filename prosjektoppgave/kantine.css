@@ -11,3 +11,35 @@ header {
     padding: 15px;
     text-align: center;
 }
+
+.navbar {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+main {
+    margin: 20px;
+}
+
+footer {
+    background-color: rgb(216, 74, 74);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.meny-dag {
+    margin-bottom: 20px;
+}
+
+.meny-dag ul {
+    list-style-type: none;
+}
+
+strong {
+    color: rgb(117, 185, 162);
+}
