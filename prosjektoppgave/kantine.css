@@ -58,19 +58,78 @@ body {
 }
 
 .hero h2 {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-size: 2em;
     color: #fff;
 }
 
 .hero p {
-    font-size: 1.2em;
+    font-size: 1.4em;
     margin-bottom: 30px;
     color: #fff;
 }
 
+/*meny tekst*/
+.meny {
+    text-align: center;
+    padding: 120px 0;
+    background: #a07b33; 
+}
+
+.meny h2 {
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #fff;
+}
+
+.meny h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.meny p {
+    font-size: 1.4em;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.meny ul li {
+    margin-left: 20px;
+    color: #fff;
+}
+
+
+/*varer*/
+.varer {
+    text-align: center;
+    padding: 120px 0;
+    background: #936915; 
+}
+
+.varer h2 {
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #fff;
+}
+
+.varer p {
+    font-size: 1.4em;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+
 /* navigering bar*/
 .navbar {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/*rom*/
+.rom {
     width: 80%;
     margin: auto;
     overflow: hidden;
@@ -80,6 +139,9 @@ body {
 main {
     text-align: center;
     margin: 20px;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
 }
 
 /*kontakt info*/
