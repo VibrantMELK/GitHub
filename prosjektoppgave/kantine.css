@@ -16,7 +16,7 @@ body {
 
 /* navigering bar*/
 .navbar {
-    width: 80%;
+    width: 85%;
     margin: auto;
     overflow: hidden;
     font-size: 19px;
@@ -24,9 +24,9 @@ body {
 
 /*header*/
 header {
-    background-color: rgb(231, 116, 231);
+    background-color: rgb(193, 46, 193);
     color: white;
-    padding: 15px;
+    padding: 30px;
     text-align: center;
 }
 
@@ -80,19 +80,19 @@ body {
 /*meny tekst*/
 .meny {
     text-align: center;
-    padding: 40px 0;
+    padding: 45px 0;
     background: #a07b33; 
 }
 
 .meny h2 {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     font-size: 2em;
     color: #fff;
 }
 
 .meny h3 {
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
     font-size: 1.5em;
     color: #fff;
 }
@@ -116,7 +116,7 @@ body {
 /*varer*/
 .varer {
     text-align: center;
-    padding: 120px 0;
+    padding: 45px 0;
     background: #936915; 
 }
 
@@ -126,8 +126,8 @@ body {
     color: #fff;
 }
 
-.varer p {
-    font-size: 1.4em;
+.varer ul {
+    font-size: 1.1em;
     margin-bottom: 30px;
     color: #fff;
 }
@@ -135,6 +135,7 @@ body {
 .varer ul li {
     list-style: none;
     margin-left: 30px;
+    margin-top: 25px;
     color: #fff;
 }
 
