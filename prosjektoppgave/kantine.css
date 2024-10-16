@@ -1,3 +1,12 @@
+/* Restart CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*body*/
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(89, 224, 89);
@@ -35,6 +44,12 @@ header nav ul li a {
     color: #fff;
 }
 
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
 /* hero tekst*/
 .hero {
     text-align: center;
@@ -44,7 +59,7 @@ header nav ul li a {
 
 .hero h2 {
     margin-bottom: 20px;
-    font-size: 2.5em;
+    font-size: 2em;
     color: #fff;
 }
 
@@ -61,7 +76,9 @@ header nav ul li a {
     overflow: hidden;
 }
 
+/*main*/
 main {
+    text-align: center;
     margin: 20px;
 }
 
@@ -87,4 +104,45 @@ footer {
 
 strong {
     color: rgb(117, 185, 162);
+}
+
+.menyside {
+    text-align: center;
+    padding: 120px 0;
+    background: #FF7B9C; 
+    color: #fff;
+}
+
+.menyside h2 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.menyside p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+/*vareside*/
+.eksempler {
+    padding: 120px 0;
+    background: #e567b3; 
+    color: #fff;
+}
+
+.eksempler h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+.eksempler p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+
+.eksempler h1 {
+    margin-bottom: 10px;
+    font-size: 2em;
 }
