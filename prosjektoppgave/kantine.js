@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const dagensMeny = document.querySelector(`.meny-dag:nth-child(${today})`);
   
     if (dagensMeny) {
-      dagensMeny.style.backgroundColor = "rgb(255, 0, 0)";
+      dagensMeny.style.backgroundColor = "#FF8585";
     }
   });
   
