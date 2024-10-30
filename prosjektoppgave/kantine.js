@@ -3,8 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const dagensMeny = document.querySelectorAll(".meny-dag")[dagensUkedag];
   
     if (dagensMeny) {
-        const dagNavn = dagensMeny.querySelector("dag-navn");
-
+        dagensMeny.style.backgroundColor = "#FF8585";
     }
 });
   
