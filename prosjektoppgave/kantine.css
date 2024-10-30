@@ -182,7 +182,7 @@ footer {
     list-style-type: none;
 }
 
-.meny-dag--markert {
+.meny-dag--markert .dag-navn{
     background-color: #F87272;
     width: 400px;
     padding: 10px;

@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const dagensMeny = document.querySelectorAll(".meny-dag")[dagensUkedag];
   
     if (dagensMeny) {
-        dagensMeny.classList.add("meny-dag--markert");
+        const dagNavn = dagensMeny.querySelector("dag-navn");
 
     }
 });
