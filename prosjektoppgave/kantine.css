@@ -9,7 +9,7 @@
 /*body*/
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #333333;
+    background-color: #653068;
     margin: 0;
     padding: 0;
 }
@@ -24,8 +24,8 @@ body {
 
 /*header*/
 header {
-    background-color: #333333;
-    color: white;
+    background-color: #653068;
+    color: #FFF4EB;
     padding: 30px;
     text-align: center;
 }
@@ -49,7 +49,7 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color: white;
+    color: #FFF4EB;
 }
 
 
@@ -62,19 +62,19 @@ body {
 .hero {
     text-align: center;
     padding: 120px 0;
-    background: #95B8D1; 
+    background: #B5A886; 
 }
 
 .hero h2 {
     margin-bottom: 30px;
     font-size: 2em;
-    color: white;
+    color: #FFF4EB;
 }
 
 .hero p {
     font-size: 1.4em;
     margin-bottom: 30px;
-    color: white;
+    color: #FFF4EB;
 }
 
 /*meny tekst*/
@@ -87,29 +87,29 @@ body {
 .meny h2 {
     margin-bottom: 40px;
     font-size: 2em;
-    color: white;
+    color: #FFF4EB;
 }
 
 .meny h3 {
     margin-top: 40px;
     margin-bottom: 10px;
     font-size: 1.5em;
-    color: white;
+    color: #FFF4EB;
 }
 
 .meny p {
     font-size: 1.4em;
     margin-bottom: 30px;
-    color: white;
+    color: #FFF4EB;
 }
 
 .meny ul li {
     margin-left: 20px;
-    color: white;
+    color: #FFF4EB;
 }
 
 .meny strong {
-    color: white;
+    color: #FFF4EB;
 }
 
 
@@ -117,30 +117,30 @@ body {
 .varer {
     text-align: center;
     padding: 45px 0;
-    background: #EDAFB8; 
+    background: #F44174; 
 }
 
 .varer h2 {
     margin-bottom: 30px;
     font-size: 2em;
-    color: white;
+    color: #FFF4EB;
 }
 
 .varer ul {
     font-size: 1.1em;
     margin-bottom: 30px;
-    color: white;
+    color: #FFF4EB;
 }
 
 .varer ul li {
     list-style: none;
     margin-left: 30px;
     margin-top: 25px;
-    color: white;
+    color: #FFF4EB;
 }
 
 .varer strong {
-    color: white;
+    color: #F7DEE2;
 }
 
 
@@ -164,8 +164,8 @@ main {
 
 /*kontakt info*/
 footer {
-    background-color: #666A86;
-    color: white;
+    background-color: #653068;
+    color: #FFF4EB;
     text-align: center;
     padding: 10px;
     position: fixed;
@@ -182,16 +182,23 @@ footer {
     list-style-type: none;
 }
 
+.meny-dag h3 {
+    color: #FFF4EB;
+}
 
-strong {
-    color: rgb(117, 185, 162);
+.meny {
+    background: #FA7E61;
+}
+
+.meny strong {
+    color: #668BCC;
 }
 
 .menyside {
     text-align: center;
     padding: 120px 0;
-    background: #FF7B9C; 
-    color: #fff;
+    background: #FA7E61; 
+    color: #FFF4EB;
 }
 
 .menyside h2 {
