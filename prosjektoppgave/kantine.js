@@ -1,9 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const dagensUkedag = new Date().getDay();
-    const dagensMeny = document.querySelector(".meny-dag")[dagensUkedag];
+    const dagensUkedag = (new Date().getDay() - 1) % 7;
+    const dagensMeny = document.querySelectorAll(".meny-dag")[dagensUkedag];
   
     if (dagensMeny) {
-      dagensMeny.style.backgroundColor = "#FF8585";
+        dagensMeny.classList.add("meny-dag--markert");
+
     }
-  });
+});
   
